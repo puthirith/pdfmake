@@ -11,7 +11,14 @@ var defaultClientFonts = {
 		bold: 'Roboto-Medium.ttf',
 		italics: 'Roboto-Italic.ttf',
 		bolditalics: 'Roboto-MediumItalic.ttf'
+	},
+	SourceSansPro: {
+		normal: 'SourceSansPro-Regular.ttf',
+		bold: 'SourceSansPro-Bold.ttf',
+		italics: 'SourceSansPro-Italic.ttf',
+		bolditalics: 'SourceSansPro-BoldItalic.ttf'
 	}
+
 };
 
 function Document(docDefinition, tableLayouts, fonts, vfs) {
